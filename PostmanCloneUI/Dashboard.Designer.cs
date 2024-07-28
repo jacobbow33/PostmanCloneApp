@@ -52,10 +52,10 @@
             // apiLabel
             // 
             apiLabel.AutoSize = true;
-            apiLabel.Font = new Font("Segoe UI", 16F);
+            apiLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             apiLabel.Location = new Point(41, 88);
             apiLabel.Name = "apiLabel";
-            apiLabel.Size = new Size(50, 30);
+            apiLabel.Size = new Size(36, 21);
             apiLabel.TabIndex = 1;
             apiLabel.Text = "API:";
             // 
@@ -63,17 +63,18 @@
             // 
             apiTextBox.BackColor = Color.White;
             apiTextBox.BorderStyle = BorderStyle.FixedSingle;
+            apiTextBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             apiTextBox.Location = new Point(92, 85);
             apiTextBox.Name = "apiTextBox";
-            apiTextBox.Size = new Size(294, 39);
+            apiTextBox.Size = new Size(607, 29);
             apiTextBox.TabIndex = 2;
             // 
             // callApi
             // 
-            callApi.Font = new Font("Segoe UI", 16F);
-            callApi.Location = new Point(392, 85);
+            callApi.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            callApi.Location = new Point(705, 85);
             callApi.Name = "callApi";
-            callApi.Size = new Size(98, 39);
+            callApi.Size = new Size(98, 29);
             callApi.TabIndex = 3;
             callApi.Text = "Go";
             callApi.UseVisualStyleBackColor = true;
@@ -83,12 +84,13 @@
             // 
             resultsTextbox.BackColor = Color.White;
             resultsTextbox.BorderStyle = BorderStyle.FixedSingle;
+            resultsTextbox.Font = new Font("Segoe UI", 12F);
             resultsTextbox.Location = new Point(41, 171);
             resultsTextbox.Multiline = true;
             resultsTextbox.Name = "resultsTextbox";
             resultsTextbox.ReadOnly = true;
             resultsTextbox.ScrollBars = ScrollBars.Vertical;
-            resultsTextbox.Size = new Size(638, 295);
+            resultsTextbox.Size = new Size(780, 295);
             resultsTextbox.TabIndex = 4;
             // 
             // statusStrip
@@ -96,7 +98,7 @@
             statusStrip.Items.AddRange(new ToolStripItem[] { systemStatus });
             statusStrip.Location = new Point(0, 478);
             statusStrip.Name = "statusStrip";
-            statusStrip.Size = new Size(738, 30);
+            statusStrip.Size = new Size(870, 30);
             statusStrip.TabIndex = 5;
             statusStrip.Text = "statusStrip1";
             // 
@@ -110,10 +112,10 @@
             // resultsLabel
             // 
             resultsLabel.AutoSize = true;
-            resultsLabel.Font = new Font("Segoe UI", 16F);
+            resultsLabel.Font = new Font("Segoe UI", 12F);
             resultsLabel.Location = new Point(41, 138);
             resultsLabel.Name = "resultsLabel";
-            resultsLabel.Size = new Size(84, 30);
+            resultsLabel.Size = new Size(63, 21);
             resultsLabel.TabIndex = 6;
             resultsLabel.Text = "Results:";
             // 
@@ -122,7 +124,7 @@
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(738, 508);
+            ClientSize = new Size(870, 508);
             Controls.Add(resultsLabel);
             Controls.Add(statusStrip);
             Controls.Add(resultsTextbox);
